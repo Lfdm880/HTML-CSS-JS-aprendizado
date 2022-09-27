@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.speech{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6959CD;
+}
+p{
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+textarea{
+    width: 80%;
+    height: 40%;
+    margin: 50px auto;
+    padding: 1rem;
+    border:none;
+    outline:0;
+    text-align: justify;
+}
+textarea::-webkit-scrollbar{
+    width: 12px;
+    background-color: whitesmoke;
+
+}
+textarea::-webkit-scrollbar-thumb{
+    border-radius: 12px;
+    background-color: darkgray;
+    
+}
+.bi {
+font-weight: 400;
+font-size: 2rem;
+min-width: 4rem;
+
+
+}
+button{
+    padding: 15px;
+    border:none;
+    cursor: pointer;
+    border-radius: 50px !important;
+       
+}
+.bi-x-circle{
+    color:red;
+    
+}
+
+@media (max-width: 700px) {
+    p{
+        font-size: 2rem;
+
+    }
+    .bi{
+        width: 3rem;
+    }
+
+    
+}
