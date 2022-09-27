@@ -1,2 +1,2 @@
 # HTML-CSS-JS-aprendizado
-Neste repositório é com o intuito de acompanhar meu progresso na área de desenvolvimento web
+Aqui serão encontrados projetos pessoais na área de desenvolvimento web
